@@ -1,16 +1,23 @@
 # api
 
-To start the project type in command line
+## Installation
+
+```bash
  npm install
  npm start
- 
-End points : 
-POST : http://localhost:8080/api/auth/signin: Login
-Example body :
-{"username" : "yass123" , "password" : "azerty"}
+```
 
-POST : http://localhost:8080/api/auth/signup : Register 
-example body :
+ 
+## End points : 
+POST : http://localhost:8080/api/auth/signin: Login 
+
+```bash
+{"username" : "yass123" , "password" : "azerty"}
+```
+
+
+POST : http://localhost:8080/api/auth/signup : Register
+```bash
  {
     "firstName" : "Yassine",
     "lastName" : "Bayoudh",
@@ -18,3 +25,5 @@ example body :
     "password" : "azerty",
     "roles" : ["user"]
     }
+```
+
